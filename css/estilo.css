@@ -81,7 +81,7 @@ html {
   }
   
   footer {
-    margin-top: 500px;
+  
   
   }
   /* Estilo de footer*----------*/
@@ -103,7 +103,7 @@ html {
 }
   main {
     width: 350px;
-    height: 250px;
+   
     
   }
 
@@ -127,7 +127,7 @@ main {
     justify-content:left;
 }
 .Galeria{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  Arial, Helvetica, sans-serif;
     background-color: rgb(237, 126, 145);
     color: rgb(196, 24, 104);
 }  
@@ -155,9 +155,19 @@ main {
   .container img {
     margin-right: 100px; /* Espacio entre la imagen y el texto */
   }
+
+  .paginalugares{
+    width: 500px;
+    height: 500px;
+
+  }
+  .paginavestuariomarcas{
+    width: 500px;
+    height: 500px;
+  }
   
 
-@media screen and (max-width:600px){
+@media screen and (max-width:420px){
     .contenedor{
         grid-template-columns:1fr;
         grid-template-rows: repeat (4, auto);
@@ -178,6 +188,46 @@ main {
         border-radius: 20%;
         margin-bottom: 10px;
     }
+    
+   /*barra de navegacion*/
+
+    nav{
+        width: 90%;
+        background-color: rgb(241, 225, 225);
+        margin: 1rem;
+        border-radius: 10px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: .5rem;
+        width: 100%;
+        flex-direction: column;
+    }
+    nav ul a{
+        text-decoration: none;
+        color:rgb(185, 55, 96);
+        padding: 0.7rem;   
+    }
+    nav ul a:hover{
+        background-color: rgb(254, 118, 197);
+        color:rgb(248, 243, 246);
+        border-radius: 20px;
+        
+    }
+
+
+    /*barra de navegacion*/
+
+
+
+
+
+
     .main .texto{
         padding: 1rem;
         flex-direction: column;
@@ -200,7 +250,7 @@ main {
       
       .container img {
         width: 28rem;
-        margin-left: 10rem;
+        margin-left: 5rem;
         margin-bottom: 10rem;
         margin-top: 10px; /* Espacio entre el texto y la imagen */
       }
@@ -221,6 +271,76 @@ main {
         margin-bottom: 10rem;
         margin-top: 10px; /* Espacio entre el texto y la imagen */
      /* }*/
+
+     footer {
+       
+        
+      
+      }
+
+
+
+      .Galeria{
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+    }
+    .Galeria{
+        font-family:  Arial, Helvetica, sans-serif;
+        background-color: rgb(237, 126, 145);
+        color: rgb(196, 24, 104);
+        
+    } 
+
+    .Galeria{
+        width: 320px;
+    }
+
+    .paginalugares{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        
+
+       
+    
+      }
+      .paginavestuariomarcas{
+        width: 200px;
+        height: 200px;
+        display: flex;
+   
+      }
+
+      .inspopaginas{
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .playlistfotoyreproductor{
+        display: flex;
+        flex-direction: column;
+        align-items: center
+
+      }
+
+      .fotoplaylist{
+        width: 500px;
+        
+      }
+      .reproductor{
+        width: 500px;
+      }
+
+      .formularioMio{
+        width: 300px;
+     
+        padding: 20px;
+        margin: 60px;
+        border: solid 1px;  
+      }
 
 }
 
