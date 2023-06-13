@@ -1,0 +1,29 @@
+section
+    .texto{
+        font-family: 'Amatic SC', cursive;
+        font-size: 150%;
+        background-color: rgb(237, 126, 145);
+        color: rgb(196, 24, 104);
+        width: 300px;
+        margin-left: 3rem;
+        margin-top: 3rem;
+       padding: 1.5rem 1.5rem;
+       transition: all 3s;
+        
+    }
+
+    .texto:hover{
+        width: 400px;
+        background-color:rgb(204, 141, 192);
+        transform: scale(1.2);
+        color:rgb(229, 36, 126);
+        font-family: 'Amatic SC', cursive; font-weight: bold;
+    }
+    
+    .foto{
+        margin-left: 80px;
+        margin-top: 3rem;
+    
+  
+        
+    }
