@@ -1,9 +1,15 @@
-.paginalugares{
-    width: 500px;
-    height: 500px;
 
-  }
-  .paginavestuariomarcas{
-    width: 500px;
-    height: 500px;
-  }
+.inspopaginas{
+  color: rgba(250, 39, 116, 0.773);
+  display: flex;
+
+   .paginalugares{
+      width: 400px;
+      height: 400px;
+
+    }
+   .paginavestuariomarcas{
+      width: 400px;
+      height: 400px;
+    }
+}
