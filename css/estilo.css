@@ -119,7 +119,7 @@ section
   /* Espacio entre la imagen y el texto */ }
 
 .inspopaginas {
-  color: rgba(250, 39, 116, 0.773);
+  color: #c41868;
   display: flex; }
   .inspopaginas .paginalugares {
     width: 400px;
