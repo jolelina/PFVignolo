@@ -1,4 +1,4 @@
-@media screen and (max-width:420px){
+@media screen and (max-width:428px )and (max-device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
     .contenedor{
         grid-template-columns:1fr;
         grid-template-rows: repeat (4, auto);
