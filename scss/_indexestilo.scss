@@ -1,24 +1,19 @@
 section
     .texto{
-        font-family: 'Amatic SC', cursive;
-        font-size: 150%;
-        background-color: rgb(237, 126, 145);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 100%;
+        background-color: rgb(241, 225, 225);
         color: rgb(196, 24, 104);
-        width: 300px;
+        width: 400px;
         margin-left: 3rem;
         margin-top: 3rem;
-       padding: 1.5rem 1.5rem;
-       transition: all 3s;
+     
         
     }
 
-    .texto:hover{
-        width: 400px;
-        background-color:rgb(204, 141, 192);
-        transform: scale(1.2);
-        color:rgb(229, 36, 126);
-        font-family: 'Amatic SC', cursive; font-weight: bold;
-    }
+    
+        
+    
     
     .foto{
         margin-left: 80px;

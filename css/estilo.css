@@ -65,23 +65,13 @@ nav2 {
 
 section
 .texto {
-  font-family: 'Amatic SC', cursive;
-  font-size: 150%;
-  background-color: #ed7e91;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100%;
+  background-color: #f1e1e1;
   color: #c41868;
-  width: 300px;
-  margin-left: 3rem;
-  margin-top: 3rem;
-  padding: 1.5rem 1.5rem;
-  transition: all 3s; }
-
-.texto:hover {
   width: 400px;
-  background-color: #cc8dc0;
-  transform: scale(1.2);
-  color: #e5247e;
-  font-family: 'Amatic SC', cursive;
-  font-weight: bold; }
+  margin-left: 3rem;
+  margin-top: 3rem; }
 
 .foto {
   margin-left: 80px;
@@ -95,14 +85,21 @@ section
 .playlist {
   color: #c41868; }
 
-.Galeria {
+.containerg {
   display: flex;
-  justify-content: left; }
-
-.Galeria {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #ed7e91;
+  flex-direction: column;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #c41868; }
+
+#galeria .co-lg-4 {
+  margin: 0;
+  padding: 25px; }
+
+#galeria img {
+  width: 100%;
+  height: 250px; }
+  #galeria img :hover {
+    border: 5px solid #ee1187; }
 
 .formularioMio {
   width: 400px;
