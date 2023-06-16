@@ -164,38 +164,44 @@ section
     color: #f8f3f6;
     border-radius: 20px; }
   /*barra de navegacion*/
-  .main .texto {
-    padding: 1rem;
-    flex-direction: column; }
-  .foto {
-    display: flex;
-    margin-left: 80px;
-    margin-top: 8rem;
-    justify-content: flex-end; }
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center; }
-  .container img {
-    width: 28rem;
-    margin-left: 5rem;
-    margin-bottom: 10rem;
-    margin-top: 10px;
-    /* Espacio entre el texto y la imagen */ }
-  /*temporadas responsive*/
+  /* .main .texto{
+        padding: 1rem;
+        flex-direction: column;
+    }*/
+  /*.foto{
+        display: flex;
+        margin-left: 80px;
+        margin-top: 8rem;
+        justify-content: flex-end;
+        
+    }*/
+  /*.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }*/
+  /* .container img {
+        width: 28rem;
+        margin-left: 5rem;
+        margin-bottom: 10rem;
+        margin-top: 10px; /* Espacio entre el texto y la imagen 
+      }
+
+
+      /*temporadas responsive*/
   .container2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     width: 15rem; }
-  /* .temporadas {
-        width: 10rem;
-        margin-left: 10rem;
-        margin-bottom: 10rem;
-        margin-top: 10px; /* Espacio entre el texto y la imagen */
-  /* }*/
+  .temporadas {
+    width: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+    margin-top: 10px;
+    /* Espacio entre el texto y la imagen */ }
   .Galeria {
     display: flex;
     justify-content: center;
