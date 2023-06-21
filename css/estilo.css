@@ -67,8 +67,8 @@ section
 .texto {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 100%;
-  background-color: #f1e1e1;
-  color: #c41868;
+  background-color: #e27d9d;
+  color: #d3337e;
   width: 400px;
   margin-left: 3rem;
   margin-top: 3rem; }
@@ -126,7 +126,7 @@ section
     height: 500px; }
 
 @media screen and (max-width: 428px) and (max-device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
-  .contenedor {
+  .container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat 4, auto;
     grid-template-areas: "header" "main" "aside" "footer"; }
