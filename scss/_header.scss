@@ -7,6 +7,8 @@ body {
 h1 {
   color: rgb(236, 59, 115);
   margin: 10px;
+  animation-name: animacionLogo;
+  animation-duration: 1s;
 }
 
 nav {
@@ -16,23 +18,23 @@ nav {
   border-radius: 10px;
   display: flex;
   justify-content: flex-end;
-
+  .navbar-brand{
+    h1{
+      font-weight: bold;
+    }
+  }
   ul {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     padding-top: .7rem;
-
     a {
       text-decoration: none;
-      color: rgb(185, 55, 96);
+      color: rgb(185, 55, 96)!important;
       padding: 0.7rem;
+      border-radius: 20px;
 
       &:hover {
         background-color: rgb(254, 118, 197);
-        color: rgb(248, 243, 246);
-        border-radius: 20px;
+        color: rgb(248, 243, 246)!important;
+        
       }
     }
   }

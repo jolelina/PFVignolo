@@ -10,13 +10,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./imagenes/favicon-32x32.png">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   
     <link rel="stylesheet" href="./css/estilo.css">
     <title>Emily in Paris, lo que queres saber</title>
 </head>
 
 <body>
-    <header class="header">
+    <header class="header mt-2">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><h1>Emily in Paris</h1></a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/temporadas.html">Temporadas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/playlist.html">Playlist</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/galeria.html">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/inspo.html">Inspo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <!-- 
         <h1>
             Emily in Paris
         </h1>
@@ -29,57 +53,54 @@
                 <li><a href="./pages/inspo.html">Inspo</a></li>
                 <li><a href="./pages/contacto.html">Contacto</a></li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
 
-  <main class="container">
+  <main>
     
-    <section>
-        <div class="texto">
+    <section class="container mb-4 seccion-bienvenida">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-lg-5">
+                <div class="texto texto-index p-3">
             
-       <p>¡Bienvenidos a la página oficial de "Emily in Paris"!
-
-        Sumérgete en el encanto y el glamour de la serie que ha conquistado corazones en todo el mundo. Explora nuestras secciones y descubre todos los detalles detrás de la historia de Emily y su aventura en la Ciudad del Amor.
-        
-         Veras imágenes cautivadoras de la serie. Desde los impresionantes paisajes urbanos de París hasta los looks deslumbrantes de Emily, aquí encontrarás una galería de fotos que te transportará directamente al mundo de la moda y el romance.
-        
-        Podras descubrir lugares icónicos donde se filmaron las escenas más memorables de la serie. Desde los elegantes bulevares hasta las pintorescas cafeterías, te llevaremos en un recorrido virtual por los escenarios que han dejado una huella imborrable en la historia de "Emily in Paris".
-        
-        Te dejamos el estilo impecable de Emily a travez de las marcas de moda que la han convertido en un ícono de estilo. Explora nuestra sección dedicada a las prendas y accesorios que se lucen en la serie, y encuentra inspiración para crear tu propio look parisino.
-        
-        Tambien disfruta de nuestra playlist exclusiva que captura la esencia de la serie y te transportará a las calles empedradas de la ciudad mientras exploras el mundo de Emily.
-        
-       ¡No te pierdas ni un solo episodio de esta cautivadora historia!</p>
-        
-    </div>
-    
-    </section>
-    
-    <section>
-        <div class="foto">
-            <img src="./imagenes/home-emily.jpg"  alt="Emily">
-            
+                    <p>¡Bienvenidos a la página oficial de "Emily in Paris"! Sumérgete en el encanto y el glamour de la serie que ha conquistado corazones en todo el mundo. Explora nuestras secciones y descubre todos los detalles detrás de la historia de Emily y su aventura en la Ciudad del Amor. Veras imágenes cautivadoras de la serie. Desde los impresionantes paisajes urbanos de París hasta los looks deslumbrantes de Emily, aquí encontrarás una galería de fotos que te transportará directamente al mundo de la moda y el romance. Podras descubrir lugares icónicos donde se filmaron las escenas más memorables de la serie. Desde los elegantes bulevares hasta las pintorescas cafeterías, te llevaremos en un recorrido virtual por los escenarios que han dejado una huella imborrable en la historia de "Emily in Paris".</p>
+                     
+                 </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <img class="img-fluid img-bienvenida" src="./imagenes/home-emily.jpg"  alt="Emily">
+            </div>
         </div>
-      
+     
+    
     </section>
+    
+  
   </main>  
 
-  <footer>
-   <h4>
-    Powered by Jolelina
-   </h4> 
-    <nav2>
+  <footer class="mt-5">
+   
+    <nav class="nav-footer">
+      <h4>
+        Powered by Jolelina
+       </h4> 
+
         <ul>
             <li><a href="https://www.instagram.com/emilyinparis/" target="_blank">Instagram</a></li>
             <li><a href="https://www.youtube.com/watch?v=HvYcfmPPows" target="_blank">Youtube</a></li>
             <li><a href="https://www.facebook.com/Emilyinparistv" target= "_blank">Facebook</a></li>
 
         </ul>
-    </nav2>
+    </nav class="nav-footer">
    
           
   </footer>
   
+
+  <!-- JS BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
+
+
 
 </html>

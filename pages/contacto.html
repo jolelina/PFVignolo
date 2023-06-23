@@ -7,78 +7,103 @@
     <meta name="description" content=" Dejanos tus datos y te enviamos una sorpresa unica para que disfrutes de la serie Emily in Paris">
     <meta name="keywords" content="Emily, Paris, moda, serie, netflix, contacto">
     <link rel="shortcut icon" href="../imagenes/favicon-32x32.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/estilo.css">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="../css/estilo.css">
     <title>Emily in Paris, dejanos tu contacto</title>
 </head>
 <body>
-    <header>
-        <h1>
-            Emily in Paris         Contacto
-        </h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./temporadas.html">Temporadas</a></li>
-                <li><a href="./playlist.html">Playlist</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./inspo.html">Inspo</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
+  <header class="mt-2">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><h1>Emily in Paris</h1></a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./temporadas.html">Temporadas</a></li>
+                <li class="nav-item"><a class="nav-link" href="./playlist.html">Playlist</a></li>
+                <li class="nav-item"><a class="nav-link" href="./galeria.html">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="./inspo.html">Inspo</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
             </ul>
-        </nav>
-    </header>
- 
+          </div>
+        </div>
+      </nav>
+
+  
+</header>
 
     <main>
        
 
 
-        <section>
-            <section class="formularioMio">
+        <section class="seccion-contacto py-4">
+
+          <div class="container">
+            <h2 class="text-center mt-3">Contáctanos</h2>
+            <div class="row justify-content-center">
+              <div class="col-12 col-md-8 col-lg-6">
                 <form>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Nombre:</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">Completa tus datos.</div>
+                  <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="apellido" class="form-label">Apellido:</label>
+                      <input type="text" class="form-control" id="apellido" required>
+                  
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Apellido:</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email:</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    
-                      </div>  
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">He leido las politicas y acepto</label>
-                    </div>
-                    <button type="submit" class="btn btn-light">Enviar</button>
-                  </form>
-            
-        </section>    
+                      <label for="exampleInputEmail1" class="form-label">Email:</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" required>
+                  
+                    </div>  
+                  <div class="mb-3">
+                    <label for="consulta" class="form-label">Consulta</label>
+                    <textarea name="" id="consulta"  rows="5" class="form-control" required></textarea>
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">He leido las politicas y acepto</label>
+                  </div>
+                  <button type="submit" class="btn btn-light">Enviar</button>
+                </form>
           
+              </div>
+            </div>
+          </div>
+           
     </main>
 
-  <footer>
-   <h4>
-    Powered by Jolelina
-   </h4> 
-    <nav2>
-        <ul>
-            <li><a href="https://www.instagram.com/emilyinparis/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.youtube.com/watch?v=HvYcfmPPows" target="_blank">Youtube</a></li>
-            <li><a href="https://www.facebook.com/Emilyinparistv" target= "_blank">Facebook</a></li>
 
-        </ul>
-    </nav2>      
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-</body>
-</html>
+    <footer class="mt-5">
+   
+      <nav class="nav-footer">
+        <h4>
+          Powered by Jolelina
+         </h4> 
+  
+          <ul>
+              <li><a href="https://www.instagram.com/emilyinparis/" target="_blank">Instagram</a></li>
+              <li><a href="https://www.youtube.com/watch?v=HvYcfmPPows" target="_blank">Youtube</a></li>
+              <li><a href="https://www.facebook.com/Emilyinparistv" target= "_blank">Facebook</a></li>
+  
+          </ul>
+      </nav class="nav-footer">
+     
+            
+    </footer>
+    
+  
+    <!-- JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+  
+  
+  
+  </html>

@@ -1,22 +1,18 @@
-.containerg {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.texto-galeria {
+  font-family: 'Amatic SC', cursive;
     color: $colortextos;
+    font-size: 20px;
   }
   
-  #galeria {
-    .co-lg-4 {
-      margin: 0;
-      padding: 25px;
-    }
+  .seccion-galeria {
   
     img {
       width: 100%;
       height: 250px;
+      margin-top: 2rem;
   
-      :hover {
-        border: 5px solid #ee1187;
+      &:hover {
+        border: 5px solid transparent;
       }
     }
   }

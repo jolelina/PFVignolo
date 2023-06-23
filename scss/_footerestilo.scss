@@ -3,13 +3,13 @@ h4 {
     margin: 10px;
   }
   
-  nav2 {
+  .nav-footer {
     width: 90%;
     background-color: rgb(241, 225, 225);
     margin: 0 auto;
     border-radius: 10px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
   
     ul {
       list-style-type: none;
@@ -31,3 +31,15 @@ h4 {
       }
     }
   }
+
+  /* MEDIA QUERY PARA CELULARES */
+@media screen and (max-width:767px) {
+  .nav-footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    ul{
+      padding-left: 0;
+    }
+  }
+}
